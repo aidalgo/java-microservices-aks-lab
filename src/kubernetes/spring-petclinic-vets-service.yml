@@ -17,7 +17,7 @@ spec:
     spec:
       serviceAccountName: workload-identity-sa
       containers:
-      - image: acrpetclinicair2.azurecr.io/spring-petclinic-vets-service:3.0.2
+      - image: acrmulticlusterd9604a.azurecr.io/spring-petclinic-vets-service:3.0.2
         name: vets-service
         env:
         - name: "CONFIG_SERVER_URL"

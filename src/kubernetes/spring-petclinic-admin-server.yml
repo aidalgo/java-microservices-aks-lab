@@ -15,7 +15,7 @@ spec:
         app: admin-server
     spec:
       containers:
-      - image: acrpetclinicair2.azurecr.io/spring-petclinic-admin-server:3.0.2
+      - image: acrmulticlusterd9604a.azurecr.io/spring-petclinic-admin-server:3.0.2
         name: admin-server
         env:
         - name: "CONFIG_SERVER_URL"
